@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Thasadith:400,400i,700,700i&amp;subset=latin-ext,thai,vietnamese" rel="stylesheet"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="icon" href="img/логотип.png" />
+    <title> Realestate Company </title>
+
+</head>
+
+<body>
+    <header>
+        <div class="header content">
+            <a href="index.html">
+                <div class="logo">
+                    <img class="imgLogo" src="img/logo.png" alt="logo" />
+                    <h2 class="logoText1">Realestate Company</h2>
+                    <h5 class="logoText2">Lorem lpsum is simply dummy text</h5>
+                </div>
+            </a>
+            <div class="logoPfone">
+                <span class="telText"> Call us: (214) 227-7669 </span>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="content">
+            <a class="menu-link" id="menu-link">
+                <span class="line"></span>
+            </a>
+
+            <ul class="listMenu">
+                <li class="list">
+                    <a href="#">
+                        Home
+                     </a>
+                </li>
+                <li class="list">
+                    <a href="#">Our Story
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#">Tenant </a>
+                </li>
+
+
+                <li class="list">
+                    <a href="#"> Owner </a>
+                </li>
+
+                <li class="list">
+                    <a href="#"> Contact up</a>
+                </li>
+
+            </ul>
+            <ul class="sign">
+                <li class="list">
+                    <a href="#"> Sign in</a>
+                </li>
+                <li class="list listRight">
+                    /
+                </li>
+                <li class="list listRight">
+                    <a href="#"> Sign up</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="menuAdaptiveBlock hiddenMenuAdaptive" id="menuAdaptiveBlock">
+                <ul class="menuAdaptive">
+                    <a href="#">
+                        <li class="listAdaptive">
+                            Home
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="listAdaptive">
+                            Our Story
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="listAdaptive">
+                            Tenant
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="listAdaptive">
+                            Owner
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="listAdaptive">
+                            Contact up
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="listAdaptive">
+                            Sign in
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li class="listAdaptive">
+                            Sign up
+                        </li>
+                    </a>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+    <main>
+        <section class="sectionSliderSearth">
+            <div class="content block_content">
+                <div class="blockSlider">
+                    <div class="slider" id="introSlider">
+                        <div class="slider_container"></div>
+                        <div class="textSlider"></div>
+                        <div class="slider_controls"></div>
+                    </div>
+                </div>
+                <div class="blockSearth">
+                    <div class="searth">
+                        <ul class="list">
+                            <li class="listSearth" id="blockLiForm1">Tenants</li>
+                            <li class="listSearth" id="blockLiForm2">Oweners</li>
+                        </ul>
+                        <div class="searthBlock1" id="blockForm1">
+                            <p class="textInTheHead"> Address, Suburbs, Postcodes, or Regions</p>
+                            <form action="#" method="get">
+                                <input type="text" class="inputTextSearthBlock" id="inputTextSearthBlock" placeholder="Example: Wishita Falls, Tehas 76301" />
+
+                                <label>
+                                        <input type='checkbox' class="searthBlock1_checkbox" id="searthBlock1_checkbox">
+                                        <span class="newCheckbox"></span>  
+                                        <span class="inputSearthCheckbox" > Include surrounding suburdes</span>
+                                    </label>
+                                <br>
+                                <span class="textSelect"> Property Type : </span>
+                                <select class="select" size="1">
+                                          <option class="optionSelect">Select 1</option>
+                                          <option class="optionSelect">Select 2</option>
+                                          <option class="optionSelect">Select 3</option>
+                                          <option class="optionSelect">Select 4</option>
+                                          <option class="optionSelect">Select 5</option>
+                                      </select>
+                                <br>
+                                <span class="textSelect textSelect2"> Bedrooms : </span>
+                                <select class="select" size="1">
+                                          <option class="optionSelect">Select 1</option>
+                                          <option class="optionSelect">Select 2</option>
+                                          <option class="optionSelect">Select 3</option>
+                                          <option class="optionSelect">Select 4</option>
+                                          <option class="optionSelect">Select 5</option>
+                                      </select>
+                                <br>
+                                <input type="button" class="buttonSearth" value="Search" />
+                            </form>
+                        </div>
+                        <div class="theWishlist" style="display: none" id="blockForm2">
+                            <ul>
+                                <li>Contacts</li>
+                                <li>Contacts</li>
+                                <li>Contacts</li>
+                                <li>Contacts</li>
+                                <li>Contacts</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="textInfo">
+            <div class="content blockContent">
+                <div class="blockTextInfo">
+                    <div class="imgTextInfo"></div>
+                    <p class="textHeaderInfo">Buy a home </p>
+                    <p class="textInfo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tenetur exercitationem, dolores voluptates in aliquid reiciendis provident porro quaerat magnam!</p>
+                </div>
+                <div class="blockTextInfo">
+                    <div class="imgTextInfo"></div>
+                    <p class="textHeaderInfo">Buy a home </p>
+                    <p class="textInfo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tenetur exercitationem, dolores voluptates in aliquid reiciendis provident porro quaerat magnam!</p>
+                </div>
+                <div class="blockTextInfo">
+                    <div class="imgTextInfo"></div>
+                    <p class="textHeaderInfo">Buy a home </p>
+                    <p class="textInfo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Non tenetur exercitationem, dolores voluptates in aliquid reiciendis provident porro quaerat magnam!</p>
+                </div>
+            </div>
+        </section>
+        <section class="sectionPfoto">
+            <div class="content blockContentPfoto">
+                <div class="fffff">
+                    <div class="blockPfoto">
+                        <div class="imgPfoto">
+                            <img class="photoShow" src="img/foto6.jpg" alt="">
+                        </div>
+                        <div class="imgText">
+                            <div class="textSearch">
+                                <p class="targetЕext"> 4605 Bayonne Court <br> Arlington, TX 76016 </p>
+                            </div>
+                            <div class="search"></div>
+                        </div>
+                    </div>
+                    <div class="blockPfoto">
+                        <div class="imgPfoto">
+                            <img class="photoShow" src="img/foto7.jpg" alt="">
+                        </div>
+                        <div class="imgText">
+                            <div class="textSearch">
+                                <p class="targetЕext"> 4605 Bayonne Court <br> Arlington, TX 76016 </p>
+
+                            </div>
+                            <div class="search"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fffff">
+                    <div class="blockPfoto">
+                        <div class="imgPfoto">
+                            <img class="photoShow" src="img/foto8.jpg" alt="">
+                        </div>
+                        <div class="imgText">
+                            <div class="textSearch">
+                                <p class="targetЕext"> 4605 Bayonne Court <br> Arlington, TX 76016 </p>
+
+                            </div>
+                            <div class="search"></div>
+                        </div>
+                    </div>
+                    <div class="blockPfoto">
+                        <div class="imgPfoto">
+                            <img class="photoShow" src="img/foto9.jpg" alt="">
+                        </div>
+                        <div class="imgText">
+                            <div class="textSearch">
+                                <p class="targetЕext"> 4605 Bayonne Court <br> Arlington, TX 76016 </p>
+
+                            </div>
+                            <div class="search"> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fffff">
+                    <div class="blockPfoto">
+                        <div class="imgPfoto">
+                            <img class="photoShow" src="img/foto10.jpg" alt="">
+                        </div>
+                        <div class="imgText">
+                            <div class="textSearch">
+                                <p class="targetЕext"> 4605 Bayonne Court <br> Arlington, TX 76016 </p>
+
+                            </div>
+                            <div class="search"></div>
+                        </div>
+                    </div>
+                    <div class="blockPfoto">
+                        <div class="imgPfoto">
+                            <img class="photoShow" src="img/foto11.jpg" alt="">
+                        </div>
+                        <div class="imgText">
+                            <div class="textSearch">
+                                <p class="targetЕext"> 4605 Bayonne Court <br> Arlington, TX 76016 </p>
+
+                            </div>
+                            <div class="search"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fffff">
+                    <div class="blockPfoto">
+                        <div class="imgPfoto">
+                            <img class="photoShow" src="img/foto12.jpg" alt="">
+                        </div>
+                        <div class="imgText">
+                            <div class="textSearch">
+                                <p class="targetЕext"> 4605 Bayonne Court <br> Arlington, TX 76016 </p>
+
+                            </div>
+                            <div class="search"></div>
+                        </div>
+                    </div>
+                    <div class="blockPfoto">
+                        <div class="imgPfoto">
+                            <img class="photoShow" src="img/foto13.jpg" alt="">
+                        </div>
+                        <div class="imgText">
+                            <div class="textSearch">
+                                <p class="targetЕext"> 4605 Bayonne Court <br> Arlington, TX 76016 </p>
+
+                            </div>
+                            <div class="search"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <div class="clear"></div>
+
+    <footer>
+        <div class="footerTop">
+            <div class="content contentFooter">
+                <div class="block1_footerTop">
+                    <div class="fromLogin">
+                        <p class="headlineFromLogin">Member login </p>
+                        <form action="#" method="get">
+                            <input class="inputTextUserName inputFromLogin" type="text" placeholder="User name" />
+                            <input class="inputPassworld inputFromLogin" type="password" placeholder="Passworld" />
+                            <input class="buttonFromLogin" type="button" value="Login" />
+                        </form>
+                    </div>
+                    <div class="registrationBlock">
+                        <a href="#">
+                            <div class="notMemberYet">
+                                <p class="textOK">Not a member yet</p>
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="signupNow">
+                                <p class="textOK">Signup Now</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="block2_footerTop">
+                    <div class="formSubscribe">
+                        <form action="#" method="get">
+                            <p class="headlineFromLogin">Subscribe to our weekly newsletter </p>
+                            <input class="inputTextEnail" type="text" placeholder="User name" />
+                            <input class="buttonSubscribe" type="button" value="Subscribe" />
+                        </form>
+                    </div>
+                    <div class="socialNetworks">
+                        <a href="#" class="icon"></a>
+                        <a href="#" class="icon"></a>
+                        <a href="#" class="icon"></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footerBottom">
+            <div class="content contentFooterBottom">
+                <div class="block1_footerBottom">
+                    <div class="bbb">
+                        <ul class="list1">
+                            <li class="listItem">
+                                About Up
+                            </li>
+                            <li class="listItem">
+                                <a href="#">About up</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="#">Why us</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="#">Customer Stories</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="#">Press Resources</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="#">Press Releasaes</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="#">Contact us</a>
+                            </li>
+                        </ul>
+
+                        <div class="block1_footerBottom">
+                            <ul class="list1">
+                                <li class="listItem">
+                                    Proparties
+                                </li>
+                                <li class="listItem">
+                                    <a href="#">Rent a home</a>
+                                </li>
+                                <li class="listItem">
+                                    <a href="#"> Lease a home</a>
+                                </li>
+                                <li class="listItem">
+                                    <a href="#">By a home</a>
+                                </li>
+                                <li class="listItem">
+                                    <a href="#">Sell a home</a>
+                                </li>
+                                <li class="listItem">
+                                    <a href="#">Ask advices</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="block1_footerBottom">
+                    <div class="footerSlider">
+                        <ul class="list1">
+                            <li class="listItem">
+                                Costamer Testimonials
+                            </li>
+                            <label class="bottomLeft" id="bottomLeft"></label>
+                            <label class="bottomRight" id="bottomRight"></label>
+                            <div class="blockContentSlider">
+                                <p class="listSlider curry"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium reprehenderit quam, sed voluptatem neque exercitationem numquam placeat. Sequi accusamus necessitatibus modi dolor tempora autem animi libero
+                                    ea quo ipsa.
+                                    <br>
+                                    <a class="more" href="#">More</a>
+                                </p>
+                                <p class="listSlider"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci libero ipsam labore quod tempora nostrum ratione, pariatur vel repellendus quia expedita quo non explicabo eligendi placeat laboriosam. Officiis, tempore
+                                    quia?
+                                    <br>
+                                    <a class="more" href="#">More</a>
+                                </p>
+                                <p class="listSlider"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla incidunt harum aspernatur, fugit perferendis minima ipsam reprehenderit accusantium? Alias animi ullam, sint perferendis harum aliquam magni earum reprehenderit
+                                    sed, eligendi provident architecto rerum molestias eaque recusandae ipsum natus laborum reiciendis facere quisquam id nesciunt repellendus voluptate aperiam! Quia, suscipit ducimus?
+                                    <br>
+                                    <a class="more" href="#">More</a>
+                                </p>
+                            </div>
+                            <li class="listItem">
+                                <a href="#">Lorem lpsum is simply</a>
+                            </li>
+                            <li class="listItem">
+                                <a href="#">Owener, lorem lpsum</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="block1_footerBottom">
+                    <ul class="list1" style="width:200px;">
+                        <li class="creators">
+                            <div class="footerLogo">
+                                <a href="/">
+                                    <div class="footerLogoImg"></div>
+                                    <span class="footerLogoText"> Realestate Company</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="listItem ">
+                            <span class="signature">&#169; Klimashevskiy Vitaliy</span>
+                        </li>
+
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="js/main.js "></script>
+    <script src="js/jquery_min.js "></script>
+
+</body>
+
+</html>
